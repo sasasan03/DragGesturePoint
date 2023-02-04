@@ -11,9 +11,6 @@
 		69E7D45F298E17F30019DB08 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69E7D45E298E17F30019DB08 /* ContentView.swift */; };
 		69E7D461298E17F90019DB08 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 69E7D460298E17F90019DB08 /* Assets.xcassets */; };
 		69E7D464298E17F90019DB08 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 69E7D463298E17F90019DB08 /* Preview Assets.xcassets */; };
-		69E7D46E298E17F90019DB08 /* DragGestruePointTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69E7D46D298E17F90019DB08 /* DragGestruePointTests.swift */; };
-		69E7D478298E17F90019DB08 /* DragGestruePointUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69E7D477298E17F90019DB08 /* DragGestruePointUITests.swift */; };
-		69E7D47A298E17F90019DB08 /* DragGestruePointUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69E7D479298E17F90019DB08 /* DragGestruePointUITestsLaunchTests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,10 +37,7 @@
 		69E7D460298E17F90019DB08 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		69E7D463298E17F90019DB08 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		69E7D469298E17F90019DB08 /* DragGestruePointTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DragGestruePointTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		69E7D46D298E17F90019DB08 /* DragGestruePointTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DragGestruePointTests.swift; sourceTree = "<group>"; };
 		69E7D473298E17F90019DB08 /* DragGestruePointUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DragGestruePointUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		69E7D477298E17F90019DB08 /* DragGestruePointUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DragGestruePointUITests.swift; sourceTree = "<group>"; };
-		69E7D479298E17F90019DB08 /* DragGestruePointUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DragGestruePointUITestsLaunchTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -75,8 +69,6 @@
 			isa = PBXGroup;
 			children = (
 				69E7D45B298E17F30019DB08 /* DragGestruePoint */,
-				69E7D46C298E17F90019DB08 /* DragGestruePointTests */,
-				69E7D476298E17F90019DB08 /* DragGestruePointUITests */,
 				69E7D45A298E17F30019DB08 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -108,23 +100,6 @@
 				69E7D463298E17F90019DB08 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
-			sourceTree = "<group>";
-		};
-		69E7D46C298E17F90019DB08 /* DragGestruePointTests */ = {
-			isa = PBXGroup;
-			children = (
-				69E7D46D298E17F90019DB08 /* DragGestruePointTests.swift */,
-			);
-			path = DragGestruePointTests;
-			sourceTree = "<group>";
-		};
-		69E7D476298E17F90019DB08 /* DragGestruePointUITests */ = {
-			isa = PBXGroup;
-			children = (
-				69E7D477298E17F90019DB08 /* DragGestruePointUITests.swift */,
-				69E7D479298E17F90019DB08 /* DragGestruePointUITestsLaunchTests.swift */,
-			);
-			path = DragGestruePointUITests;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -266,7 +241,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				69E7D46E298E17F90019DB08 /* DragGestruePointTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -274,8 +248,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				69E7D478298E17F90019DB08 /* DragGestruePointUITests.swift in Sources */,
-				69E7D47A298E17F90019DB08 /* DragGestruePointUITestsLaunchTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
