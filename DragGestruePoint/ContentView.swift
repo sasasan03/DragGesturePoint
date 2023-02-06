@@ -22,10 +22,6 @@ struct ContentView: View {
                     .onEnded{ value in
                         print(">>>1posi", position)
                         self.position = CGSize(width: 0, height: 0)
-//                        self.position = CGSize(//現在地をプロパティに渡す
-//                            width: value.startLocation.x + value.translation.width,
-//                            height: value.startLocation.y + value.translation.height
-//                        )//初期の値に追加されていく。
                         print(">>>2posi", position)
                     }
             
@@ -38,7 +34,6 @@ struct ContentView: View {
                         .scaledToFit()
                         .frame(width: 30, height: 30)
                         .position( //Viewの中央に画像を配置。移動分の座標は + position.[w]or[hight]
-                                   //geometryで
                             x: geometry.size.width / 2 + position.width,
                             y: geometry.size.height / 2 + position.height
                         )
